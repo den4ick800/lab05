@@ -10,7 +10,7 @@ packages:
 - cmake-data
 
 before_install:
-- pip install —user cpp-coveralls
+- pip install user cpp-coveralls
 script:
 - cmake -H. -B_build -DBUILD_TESTS=ON
 - cmake —build _build
