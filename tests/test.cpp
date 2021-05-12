@@ -10,12 +10,10 @@
   class MockAccount: public Account{
   public:
    MockAccount(int id, int balance):Account(id, balance){}
-   
   };
 
   class MockTransaction: public Transaction{
   public:
-  
   };
 
   TEST(Account, GetBalance){
