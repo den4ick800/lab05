@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.4)
 set(CMAKE_CXX_STANDART 11)
 set(CMAKE_CXX_STANDART _REQUIRED ON)
 
-project(hwlab05)
+project(lab05)
 
 include_directories(banking)
 add_subdirectory(banking banking)
